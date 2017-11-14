@@ -1,0 +1,251 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parthsharma.no2expedition.RollsRoycePage">
+
+        <TextView
+
+            android:text="@string/rolls_royce_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/rollsroycestart"
+            android:id="@+id/RRstart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoRR2Dawn"
+            android:id="@+id/infoRR2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/infoRR3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/rrdawn"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView"
+            android:maxHeight="100dp"
+            android:layout_alignTop="@+id/cartitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+        android:text="@string/infoRR3Dawn"
+        android:id="@+id/cartitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_below="@+id/RRstart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/twhp"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:maxHeight="100dp"
+            android:layout_alignTop="@+id/infoRR320HP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoRR320HP"
+            android:id="@+id/infoRR320HP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/infoRR2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="11dp" />
+
+        <TextView
+            android:text="@string/infoRR20HP"
+            android:id="@+id/infoRR20HP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoRR1Dawn"
+            android:id="@+id/infoRR3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoRRDawn"
+            android:id="@+id/infoRR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_above="@+id/infoRR3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoRR220HP"
+            android:id="@+id/infoRR220HP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/infoRR20HP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/wraith"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView2"
+            android:maxHeight="100dp"
+            android:layout_below="@+id/infoRR220HP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+
+        <TextView
+           android:text="@string/infoRRWraith"
+           android:id="@+id/infoRRWraith"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="14sp"
+           android:textColor="@color/colorPrimary"
+           android:fontFamily="sans-serif-condensed"
+           android:gravity="center"
+           android:textAlignment="center"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoRR1Wraith"
+            android:id="@+id/infoRR1Wraith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_above="@+id/infoRRWraith"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp" />
+
+        <TextView
+            android:text="@string/infoRR2Wraith"
+            android:id="@+id/infoRR2Wraith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/infoRRWraith"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoRR3Wraith"
+            android:id="@+id/infoRR3Wraith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="@string/infoRR120HP"
+            android:id="@+id/infoRR120HP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_above="@+id/infoRR20HP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+

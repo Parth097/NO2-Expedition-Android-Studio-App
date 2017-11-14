@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">NO2 Expedition</string>
+
+
+    <string name="main_screen">HOME</string>
+
+
+    <string name="about_us_page">ABOUT US</string>
+
+
+    <string name="rolls_royce_page">ROLLS ROYCE</string>
+
+
+    <string name="bugatti_page">BUGATTI</string>
+
+
+    <string name="contact_us_page">CONTACT US</string>
+
+
+    <string name="email_us">Email Us by clicking on the button below!</string>
+
+
+    <string name="call_us">Call us by clicking on the button below!</string>
+
+
+    <string name="directions_page">DIRECTIONS</string>
+
+    <string name="directionsstart">NO2 Expedition will be hosted at Wembley Stadium. Please find the full address below.</string>
+
+
+    <string name="address">Address</string>
+
+
+    <string name="wembley">Wembley</string>
+
+    <string name="london">London</string>
+
+    <string name="pcs">HA9 0WS</string>
+
+    <string name="postaladdress">Postal Address</string>
+
+    <string name="wembleystadium">Wembley Stadium</string>
+
+    <string name="pobox">PO BOX 1966</string>
+
+    <string name="pcpo">SW1P PEQ</string>
+
+
+    <string name="lamborghini_page">LAMBORGHINI</string>
+
+
+    <string name="ford_page">FORD</string>
+
+
+    <string name="companies_page">COMPANIES</string>
+
+
+    <string name="open">OPEN</string>
+
+
+    <string name="close">CLOSE</string>
+
+
+    <string name="slogan">For The Dreamers</string>
+
+
+    <string name="introCompanies">The companies that will be taking part within the NO2 Expedition, are four of the biggest companies in the vehicle industry; Ford, Bugatti, Lamborghini, and Rolls Royce. They will be bringing the best cars which carry their legacy.</string>
+
+
+    <string name="intro2Companies">Click on their logos below to find out more about them, and what cars they will be showing off!</string>
+
+
+    <string name="introMainScreen">NO2 Expedition, bringing you the best show of cars you will ever see! Coming together with 4 of the most recognised car manufacturers, known for their fast and luxurious beasts. Presenting you a show which will not only take your breath away, but take you for a ride to cherish with your friends and family.</string>
+
+
+    <string name="introMainScreen2">Each company will have 1hr30mins to present their cars and their features. As well as individual stations so you can experience the cars first-hand.</string>
+
+
+    <string name="introMainScreen3">Coming soon to Wembley in 2020! For any other enquiries, please don’t hesitate to contact us. Contact information is on the ‘Contact Us’ page.</string>
+
+
+    <string name="welcome">Welcome</string>
+
+
+    <string name="introAboutus">We are a company which is in love with cars, and wanting to bring other self like car enthusiasts, shows which provide thrill and knowledge about the four wheeled beasts. </string>
+
+
+    <string name="introAboutus2">We are thrilled to be hosting this event, and would like to thank all the sponsors and the collaboration with the companies to make this dream possible.</string>
+
+
+    <string name="introAboutus3">NO2 Expedition found by Parth Sharma, "Our job is to make Dreams into reality".</string>
+
+
+    <string name="introContactus">For any enquires please don’t hesitate to contact via the given email below.</string>
+
+
+    <string name="email">No2Expedition@Gmail.com</string>
+
+
+    <string name="rollsroycestart">Below are 3 amazing Rolls Royce cars which will be shown at the NO2 Expedition.</string>
+
+    <string name="infoRRDawn">RRP: From £255,000</string>
+    <string name="infoRR1Dawn">Max Speed: 155mph</string>
+    <string name="infoRR2Dawn">Acceleration: 0-62mph in 4.9 seconds</string>
+    <string name="infoRR3Dawn">Dawn</string>
+
+
+    <string name="infoRR20HP">RRP: From £70,000</string>
+    <string name="infoRR120HP">Max Speed: 80mph</string>
+    <string name="infoRR220HP">Acceleration: 0-62mph in 9.3 seconds</string>
+    <string name="infoRR320HP">20HP</string>
+
+
+    <string name="infoRRWraith">RRP: From £240,000</string>
+    <string name="infoRR1Wraith">Max Speed: 155mph</string>
+    <string name="infoRR2Wraith">Acceleration: 0-62mph in 4.6 seconds</string>
+    <string name="infoRR3Wraith">Wraith</string>
+
+
+    <string name="fordstart">Below are 3 amazing Ford cars which will be shown at the NO2 Expedition.</string>
+
+    <string name="infoFN2">RRP: From £64,000</string>
+    <string name="infoFN3">Max Speed: 163mph</string>
+    <string name="infoFN4">Acceleration: 0-62mph in 4.4 seconds</string>
+    <string name="infoFN1">Mustang 350R 17</string>
+
+    <string name="infoFGT2">RRP: From £450,000</string>
+    <string name="infoFGT3">Max Speed: 205mph</string>
+    <string name="infoFGT4">Acceleration: 0-62mph in 3.4 seconds</string>
+    <string name="infoFGT1">GT 17</string>
+
+    <string name="infoFO2">RRP: From £30,000</string>
+    <string name="infoFO3">Max Speed: 140mph</string>
+    <string name="infoFO4">Acceleration: 0-62mph in 7.3 seconds</string>
+    <string name="infoFO1">Mustang 97</string>
+
+
+    <string name="lamborghinistart">Below are 3 amazing Lamborghini cars which will be shown at the NO2 Expedition.</string>
+
+    <string name="infoLh2">RRP: From £155,000</string>
+    <string name="infoLh3">Max Speed: 201mph</string>
+    <string name="infoLh4">Acceleration: 0-62mph in 3.2 seconds</string>
+    <string name="infoLh1">Huracan</string>
+
+
+    <string name="infoLe2">RRP: From £231,000</string>
+    <string name="infoLe3">Max Speed: 208mph</string>
+    <string name="infoLe4">Acceleration: 0-62mph in 3.9 seconds</string>
+    <string name="infoLe1">Estoque</string>
+
+
+    <string name="infoLGT2">RRP: From £183,000</string>
+    <string name="infoLGT3">Max Speed: 158mph</string>
+    <string name="infoLGT4">Acceleration: 0-62mph in 6.8 seconds</string>
+    <string name="infoLGT">350 Gt</string>
+
+
+    <string name="bugattistart">Below are 3 amazing Bugatti cars which will be shown at the NO2 Expedition.</string>
+
+    <string name="infoBC2">RRP: From £2,200,000</string>
+    <string name="infoBC3">Max Speed: 288mph</string>
+    <string name="infoBC4">Acceleration: 0-62mph in 2.5 seconds</string>
+    <string name="infoBC1">Chiron</string>
+
+
+    <string name="infoBV2">RRP: From £1,225,000</string>
+    <string name="infoBV3">Max Speed: 253mph</string>
+    <string name="infoBV4">Acceleration: 0-62mph in 2.4 seconds</string>
+    <string name="infoBV1">Veyron</string>
+
+
+    <string name="infoBT2">RRP: From £40,000,000</string>
+    <string name="infoBT3">Max Speed: 123mph</string>
+    <string name="infoBT4">Acceleration: 0-62mph in 10.2 seconds</string>
+    <string name="infoBT1">Type 57SC</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

@@ -1,0 +1,112 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parthsharma.no2expedition.ContactUsPage" >
+
+
+
+    <TextView
+
+        android:text="@string/contact_us_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="@string/introContactus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="start"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="start"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/call_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="start"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/email_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="start"
+        android:layout_below="@+id/callButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:text="Email Us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/emailButton"
+        android:background="@color/textOverblack"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/callButton"
+        android:layout_alignStart="@+id/callButton" />
+
+    <Button
+        android:text="Call Us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/callButton"
+        android:layout_marginTop="15dp"
+        android:background="@color/textOverblack"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,201 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parthsharma.no2expedition.DirectionsPage" >
+
+
+        <TextView
+
+            android:text="@string/directions_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="@string/directionsstart"
+        android:id="@+id/Dstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/title"
+        android:gravity="start"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="@string/wembleystadium"
+        android:id="@+id/wembleystadium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:layout_below="@+id/adress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+
+    <TextView
+        android:text="@string/wembley"
+        android:id="@+id/wembley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:gravity="start"
+        android:layout_below="@+id/wembleystadium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="@string/london"
+        android:id="@+id/london"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:layout_below="@+id/wembley"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+
+
+    <TextView
+        android:text="@string/pcs"
+        android:id="@+id/pcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:layout_below="@+id/london"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+
+
+    <TextView
+        android:text="@string/postaladdress"
+        android:id="@+id/postaladdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@+id/pcs"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:text="@string/wembleystadium"
+        android:id="@+id/wembleystadium2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@+id/postaladdress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/pobox"
+        android:id="@+id/pobox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@+id/wembleystadium2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="@string/address"
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:layout_below="@+id/Dstart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/london"
+        android:id="@+id/london2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@+id/pobox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/pcpo"
+        android:id="@+id/pcpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@+id/london2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/directionsButton"
+        android:background="@color/textOverblack"
+        android:layout_below="@+id/pcpo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+
+
+

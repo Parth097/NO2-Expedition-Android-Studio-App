@@ -1,0 +1,249 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parthsharma.no2expedition.BugattiPage">
+
+        <TextView
+
+            android:text="@string/bugatti_page"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentLeft="false"
+            android:textAlignment="center"
+            android:layout_width="match_parent" />
+
+        <TextView
+            android:text="@string/bugattistart"
+            android:id="@+id/Bstart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    <TextView
+            android:text="@string/infoBT4"
+            android:id="@+id/BT4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/BT3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <TextView
+            android:text="@string/infoBT1"
+            android:id="@+id/BT1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="13dp"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/infoBV3"
+        android:id="@+id/BV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp" />
+
+    <TextView
+        android:text="@string/infoBV4"
+        android:id="@+id/BV4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+            android:text="@string/infoBC3"
+            android:id="@+id/BC3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+        android:layout_above="@+id/BC4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/infoBC2"
+        android:id="@+id/BC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_above="@+id/BC3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/type"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView3"
+        android:maxHeight="150dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/infoBT2"
+        android:id="@+id/BT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+            android:text="@string/infoBT3"
+            android:id="@+id/BT3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/infoBC1"
+        android:id="@+id/BC1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/Bstart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/chiron"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView1"
+        android:maxHeight="150dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+            android:text="@string/infoBC4"
+            android:id="@+id/BC4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/veyron"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView2"
+        android:maxHeight="150dp"
+        android:layout_below="@+id/BC3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/infoBV2"
+        android:id="@+id/BV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_above="@+id/BV3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/infoBV1"
+        android:id="@+id/BV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/BC4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+
+
+
+
+

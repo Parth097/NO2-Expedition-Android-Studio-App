@@ -1,0 +1,246 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parthsharma.no2expedition.FordPage">
+
+
+
+        <TextView
+
+            android:text="@string/ford_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/fordstart"
+            android:id="@+id/Fstart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/mustangnew"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:maxHeight="115dp"
+            android:layout_below="@+id/Fstart"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFN3"
+            android:id="@+id/FN3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFN2"
+            android:id="@+id/FN2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_above="@+id/FN3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFN4"
+            android:id="@+id/FN4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFO2"
+            android:id="@+id/FO2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFO3"
+            android:id="@+id/FO3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFO4"
+            android:id="@+id/FO4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/FO3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/mustangold"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView2"
+            android:maxHeight="125dp"
+            android:layout_alignTop="@+id/FO1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/fordgt"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView3"
+            android:maxHeight="125dp"
+            android:layout_below="@+id/FO4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFGT1"
+            android:id="@+id/FGT1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/FO4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFGT2"
+            android:id="@+id/FGT2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:text="@string/infoFO1"
+            android:id="@+id/FO1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/FN4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFN1"
+            android:id="@+id/FN1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/Fstart"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:text="@string/infoFGT4"
+            android:id="@+id/FGT4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/infoFGT3"
+            android:id="@+id/FGT3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_above="@+id/FGT4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
